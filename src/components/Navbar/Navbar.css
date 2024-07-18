@@ -108,3 +108,9 @@
         display: block;
     }
 }
+
+@media (max-width:500px){
+    .navbar .contact__btn{
+        display: none;
+    }
+}
