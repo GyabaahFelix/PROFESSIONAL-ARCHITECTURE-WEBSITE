@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./ServiceCard.css"
 
 const ServiceCard = ({
@@ -10,9 +10,9 @@ const ServiceCard = ({
     <div className="service__card">
       <div className="icon__container">
         {icon}
-        <h3 className="name">{name}</h3>
-        <p className="text__muted description">{description}</p>
       </div>
+      <h3 className="name">{name}</h3>
+      <p className="text__muted description">{description}</p>
     </div>
   )
 }
