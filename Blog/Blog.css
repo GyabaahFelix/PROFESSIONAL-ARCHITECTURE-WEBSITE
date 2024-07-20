@@ -1,4 +1,4 @@
-#blog .blogs__container{
+#blog .blog__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
@@ -59,12 +59,12 @@
 }
 /* Responsive Design */
 @media(max-width:1000px){
-    #blog .blogs__container{
+    #blog .blog__container{
         grid-template-columns: repeat(2,1fr);
     }
 }
 @media(max-width:600px){
-    #blog .blogs__container{
+    #blog .blog__container{
         grid-template-columns: 100%;
     }
 }

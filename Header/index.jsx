@@ -1,12 +1,36 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import "./Header.css"
-import { building_3 } from '../../assets'
+import { building_0 } from '../../assets'
 import { Link } from 'react-scroll'
 import Achievement from '../Achievement'
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
 
 const Header = () => {
+  const container = useRef(null);
+  useGSAP(()=>{
+    const timeline = gsap.timeline({delay:1,stagger:1});
+    timeline
+    .fromTo(
+      ".image__container",
+      {scale:.5,opacity:0,y:150},
+      {scale:1,ease:'sine.in',opacity:1,y:0}
+    )
+    .from(
+      ".title",
+      {opacity:0,y:-30}
+    )
+    .from(
+      ".description",
+      {opacity:0,y:-30}
+    )
+    .from(
+      ".buttons__container",
+      {opacity:0,y:40}
+    )
+  },{scope:container})
   return (
-    <header id='header'>
+    <header id='header' ref={container}>
       <div className="container full__height">
         <div className="row">
           <div className="column">
@@ -27,7 +51,7 @@ const Header = () => {
           </div>
           <div className="column">
             <div className="image__container">
-              <img src={building_3} alt="" />
+              <img src={building_0} alt="" />
             </div>
           </div>
         </div>
