@@ -196,30 +196,26 @@ export const testimonial = [
   {
     image:profile2,
     name:'Lionel Messi',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`
+    review:` "ExcelsiorTech transformed our vision into reality with impeccable design and attention to detail. Their creativity and professionalism exceeded our expectations. We couldn’t be happier with our new space!" - Lionel Messi.`
   },
   {
     image:profile3,
     name:'Cristiano Ronaldo',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    review:` Working with ExcelsiorTech was a fantastic experience. Their architectural expertise and innovative solutions brought our project to life. Highly recommend them for any architectural needs!" - Cristiano Ronaldo.
+
+`
   },
   {
     image:profile4,
     name:'Jude Bellingham',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`
+    review:` ExcelsiorTech is a true professional team. Their dedication to perfection and unique design perspective made our project a stunning success. We are thrilled with the outcome!" - Jude Bellingham.`
   },
   {
     image:profile5,
     name:'Kylain Mbappe',
-    review:` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`
+    review:` From concept to completion, ExcelsiorTech was exceptional. Their ability to understand our needs and deliver a beautiful, functional design was outstanding. We are grateful for their expertise." - Kylain Mbappe.
+
+`
   }
 
 ];
